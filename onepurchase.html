@@ -22,7 +22,10 @@
 <body>
    <div class="flex_cont">
       <div class="left">
+        <div class="stickycont">
+        <img class="rotate" src="images/vegan.gif">
          <img src="images/left.png">
+       </div>
       </div>
       <div class="right">
          <img src="images/right2.png">
@@ -51,7 +54,15 @@
          background: #F8F8F8;
          position: relative;
       }
-      .left img {
+      .left .rotate {
+        position: absolute;
+        top: 30px;
+        right: 40px;
+        width: 120px;
+        height: 120px;
+        z-index: 10;
+      }
+      .stickycont {
          position: sticky;
          top: 0;
       }
