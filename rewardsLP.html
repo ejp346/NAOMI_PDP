@@ -36,13 +36,12 @@
       }
       .gif {
         width: 40%;
-        overflow: hidden;
+        margin: auto;
+        position: relative;
         height: 550px;
       }
       .gif img {
-        width: 140%;
-        margin-left: -80px;
-        margin-top: -20px;
+        width: 73%;
       }
       .left img {
         width: 80%;
@@ -79,13 +78,28 @@
       }
       .resttwo {
         max-width: 1160px;
-        margin: 1060px auto 0;
+        margin: 1196px auto 0;
       }
       .resttwo img {
         width: 100%;
       }
       .header img {
         width: 100%;
+      }
+      .imagewpr {
+        left: 60%;
+      }
+      .imagewprtwo {
+        left: 36%;
+      }
+      .imagewpr, .imagewprtwo {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        transform: translate(-50%,-50%);
+      }
+      .imagewprtwo img {
+         width: 120%;
       }
    </style>
    <div class="header">
@@ -97,12 +111,18 @@
         <img src="images/Group26.png">
       </div>
       <div class="gif">
-        <img src="images/globe2.gif">
+        <div class="imagewpr">
+          <img src="images/globe.gif">
+        </div>
+        <div class="imagewprtwo">
+          <img src="images/Untitled-1.gif">
+        </div>
+        
       </div>
    </div>
 
    <div class="steps">
-    <img src="images/Untitled-1.gif">
+    <img src="images/steps.gif">
   </div>
 
   <div class="bottoms">
