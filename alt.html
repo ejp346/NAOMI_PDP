@@ -36,6 +36,7 @@
    </div>
 
    <div class="bottom">
+      <img class="rotate_bottom" src="images/pdp_rotate.gif">
       <img src="images/alt_bottom.png">
    </div>
 
@@ -70,7 +71,8 @@
          top: 0;
       }
       .bottom {
-         margin: 100px auto;
+         margin: auto;
+         position: relative;
       }
       .fixednav img {
         max-width: 1160px;
@@ -86,6 +88,13 @@
         transition: top 0.3s;
         box-shadow: 0 2px 9px 0 rgba(0,0,0,0.15);
         padding: 10px 0 8px;
+      }
+      .rotate_bottom {
+        position: absolute;
+        width: 120px !important;
+        transform: translateX(-50%);
+        left:50%;
+        top: 90px;
       }
    </style>
 
